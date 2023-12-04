@@ -1,8 +1,13 @@
 .title_filter {
   margin-top: 20px;
   font-weight: 400;
+  font-size: 20px;
+  text-align: center;
 }
 .input_filter {
-  margin-top: 5px;
-  width: 140px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 160px;
 }

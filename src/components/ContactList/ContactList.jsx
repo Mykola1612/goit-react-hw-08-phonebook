@@ -28,7 +28,7 @@ const ContactList = () => {
       {handleFilterContacts().map(contact => {
         return (
           <li key={contact.id} className={styles.list_element}>
-            {contact.name}: {contact.phone}{' '}
+            {contact.name}: {contact.number}
             <button
               type="button"
               className={styles.button_contacts__list}
